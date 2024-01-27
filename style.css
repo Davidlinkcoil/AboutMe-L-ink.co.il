@@ -1,0 +1,61 @@
+body{
+    background-color: hsl(0, 15%, 8%);
+    color: white;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+main{
+    background-color: hsl(0, 0%, 12%);
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+}
+main header img{
+    width: 100px;
+    border-radius: 50%;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+.buttons button{
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+header h1{
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+header p{
+    color: hsl(75, 94%, 57%);
+    margin-top: 0;
+}
+div p{
+    color:rgb(229, 219, 219);
+}
+div p span{
+    font-size: 0.75em;
+    font-weight: 200;
+    font-style: italic;
+}
